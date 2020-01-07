@@ -1,0 +1,10 @@
+{
+  "database": {
+    "engine": "mysql",
+    "host": "mariadb",
+    "name": "proxymgr",
+    "user": "dockstarter",
+    "password": "dockstarter",
+    "port": 3306
+  }
+}
