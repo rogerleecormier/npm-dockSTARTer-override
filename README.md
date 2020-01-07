@@ -16,4 +16,4 @@ DS gives the user additional control over customizing his application containers
 
 This repository is merely a selection of overrides that I use to enhance my DS implementation.  They were created for my personal use, but are posted for others to review and use if they choose. Some of these may be submitted to DS for review to become updates or additions to the current DS suite of applications.
 
-* [NGINX Proxy Manager](docs/INSTALL.md)
+* [NGINX Proxy Manager](docs/npm-install.md)
