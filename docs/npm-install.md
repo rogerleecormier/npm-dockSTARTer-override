@@ -81,6 +81,7 @@ The official NGINX Proxy Manager [installation instructions](https://github.com/
 
 * Navigate to **Configuration > Select Apps**
 * Select MariaDB
+
     ![MariaDB](https://i.imgur.com/v5zc3sm.png)
 * Complete DS configuration
 
