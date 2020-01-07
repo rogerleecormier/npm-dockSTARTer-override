@@ -76,7 +76,7 @@ The official NGINX Proxy Manager [installation instructions](https://github.com/
 * Run DS from the terminal
 
     ````bash
-    $ ds
+    ds
     ````
 
 * Navigate to **Configuration > Select Apps**
@@ -100,4 +100,4 @@ This completes the installation. The above process will create two Docker contai
 
 Upon successful installation, the MariaDB container will automatically create the database according to the specified environment variables in the **docker-compose.override.xml** file. Once complete, the ProxyManager will be able to communicate with the database with the credientials provided in the **config.json** file. The ProxyManager container requires the mariadb container in order to properly function. It will take a few moments for both to configure and sync up.  
 
-Once complete, both containers will be online with a "healthy" status. The application completion can be validated by a successful navigation to http://localhost:81.
+Once complete, both containers will be online with a "healthy" status. The application completion can be validated by a successful navigation to <http://localhost:81.>

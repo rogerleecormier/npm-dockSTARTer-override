@@ -8,9 +8,9 @@ dockSTARTer is a an application focused on making it quick and easy to get up an
 
 ## What are Overrides
 
-DS uses the docker-compose method of configuring each container for each application, with integrated global environment variables that are constant for all containers. The application dynamically creates the YAML-formatted configuration file based upon the user selections when running the DS application. This uses a file called docker-compose.yml. 
+DS uses the docker-compose method of configuring each container for each application, with integrated global environment variables that are constant for all containers. The application dynamically creates the YAML-formatted configuration file based upon the user selections when running the DS application. This uses a file called docker-compose.yml.
 
-DS gives the user additional control over customizing his application containers or adding additional applications that are not natively supported in the DS suite.  These overrides essentially are a layer over the standard docker-compose.yaml, and allow for changes to the original settings, without actually updating the dynamically-generated docker-compose.yaml file. These are configured in a file called docker-compose.override.yml. 
+DS gives the user additional control over customizing his application containers or adding additional applications that are not natively supported in the DS suite.  These overrides essentially are a layer over the standard docker-compose.yaml, and allow for changes to the original settings, without actually updating the dynamically-generated docker-compose.yaml file. These are configured in a file called docker-compose.override.yml.
 
 ## My Overrides
 
